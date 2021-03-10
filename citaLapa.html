@@ -8,6 +8,8 @@
         var kr=document.getElementById("krasa").value;
         document.getElementById("fons").style="background-color:"+kr;
         document.getElementById("Izvēlies krāsu!").innerHTML = "Krāsa nomainīta";
+        document.getElementById("krasot").addEventListener("change", "krasot");
+        
     }
     
     </script>
@@ -15,7 +17,7 @@
 <body>
 <form>
   <div id="fons" style="background-color:lightgrey">Izvēlies krāsu!</div>
-  <input type="color" id="krasa" value="#00ff00" onchange="krāsa nomainīta!();">
+  <input type="color" id="krasa" value="#00ff00" onchange="Krāsa nomainīta();">
 </form>
 </body>
 </html
