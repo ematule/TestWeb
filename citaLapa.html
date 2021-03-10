@@ -10,16 +10,12 @@
         document.getElementById("Izvēlies krāsu!").innerHTML = "Krāsa nomainīta";
     }
     
-    document.getElementById("background-color").addEventListener("change", myFunction);
-function myFunction() {
-  var x = document.getElementById("krasot");
-}
     </script>
 </head>
 <body>
 <form>
   <div id="fons" style="background-color:lightgrey">Izvēlies krāsu!</div>
-  <input type="color" id="krasa" value="#00ff00" onclick="krasot();">
+  <input type="color" id="krasa" value="#00ff00" onchange="krāsa nomainīta!();">
 </form>
 </body>
 </html
